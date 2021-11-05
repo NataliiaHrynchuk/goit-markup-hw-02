@@ -1,9 +1,48 @@
 :root {
-	--main-title-color: #ffffff;
-	--second-title-color: #212121;
-	--first-link-color: #2196f3;
-	--second-link-color: #000000;
-	--third-link-color: #757575;
-	--fourth-link-color: rgba(255, 255, 255, 0.6);
+	--accent-color: #2196f3;
+	--second-logo-color: #000000;
+	--second-color: #212121;
+	--link-color: #ffffff96;
+	--main-color: #ffffff;
 	--text-color: #757575;
+	--main-bg-color: #f5f4fa;
+	--third-bg-color: #2f303a;
+	--btn-hover-color: #188ce8;
+}
+
+body {
+	background-color: var(--main-bg-color);
+	color: var(--text-color);
+}
+.list {
+	list-style: none;
+}
+/* Верхня лінія */
+.logo {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.38;
+	letter-spacing: 0.03em;
+	text-decoration: inherit;
+	color: var(--accent-color);
+}
+.menu-nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--second-color);
+}
+
+span.head {
+	color: var(--second-logo-color);
+}
+/* Підвал */
+footer {
+	background-color: var(--third-bg-color);
+}
+span.foot {
+	color: var(--main-color);
 }
