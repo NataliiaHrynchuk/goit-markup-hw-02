@@ -28,17 +28,43 @@ body {
 	text-decoration: inherit;
 	color: var(--accent-color);
 }
-.menu-nav {
+span.head {
+	color: var(--second-logo-color);
+}
+.link-nav {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--second-color);
+	text-decoration: inherit;
+}
+.link-nav.active {
+	color: var(--accent-color);
+}
+.link-mail {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: inherit;
+	color: var(--text-color);
+}
+.link-mail:hover,
+.link-mail:focus {
+	color: var(--accent-color);
+}
+.link-tel {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: inherit;
+	color: var(--text-color);
 }
 
-span.head {
-	color: var(--second-logo-color);
-}
+/* Шапка */
+
 /* Підвал */
 footer {
 	background-color: var(--third-bg-color);
