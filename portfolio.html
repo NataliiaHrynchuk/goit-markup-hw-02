@@ -5,47 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css"/>
-</head>
-<body>
-<!--Верхня лінія-->
-<header>
-    <a href="">WebStudio</a>
-
-    <nav>
-        <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
-        </ul>
-
-    </nav>
-
-    <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
-    </ul>
-
-</header>
+    <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+        <body>
+        <!--Верхня лінія-->
+        <header>
+            <a href="" class="logo">Web<span class="head">Studio</span></a>
+    
+            <nav>
+                <ul class="menu-nav">
+                    <li class="list"><a href="./index.html" class="site-nav current">Студия</a></li>
+                    <li class="list"><a href="./portfolio.html" class="site-nav current">Портфолио</a></li>
+                    <li class="list"><a href="" class="site-nav current">Контакты</a></li>
+                </ul>
+    
+            </nav>
+    
+    
+            <ul>
+                <li class="list"><a href="" class="link-mail">info@devstudio.com</a></li>
+                <li class="list"><a href="" class="link-tel">+38 096 111 11 11</a></li>
+            </ul>
+    
+        </header>
 <main>
     <!--Портфоліо-->
+    <section>
+        <ul>
+            <li><button class="list filter-btn" type="button">Все</button></li>
+            <li><button class="list filter-btn" type="button">Веб-сайты</button></li>
+            <li><button class="list filter-btn" type="button">Приложения</button></li>
+            <li><button class="list filter-btn" type="button">Дизайн</button></li>
+            <li><button class="list filter-btn" type="button">Маркетинг</button></li>
+        </ul>
+        <h1 hidden>Проэкты</h1>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="./images/img5.jpg" alt="Монитор">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img6.jpg" alt="Спортсмены">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img7.jpg" alt="Рыба">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img8.jpg" alt="Наушники">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img9.jpg" alt="Две коробки">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img10.jpg" alt="Монитор">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img11.jpg" alt="Журнал">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img12.jpg" alt="Бирка">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./images/img13.jpg" alt="Ноутбук">
+                    <h2></h2>
+                    
+                </a>
+            </li>
+
+        </ul>
+   </section>
 
 </main>
 <!--Підвал-->
 <footer>
-    <a href="">WebStudio</a>
+    <a href="" class="logo">Web<span class="foot">Studio</span></a>
     <address>
         <ul>
-            <li>
-                <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+            <li class="list">
+                <a href="" class="foot-link">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+            <li class="list">
+                <a href="mailto:info@example.com" class="foot-mail">info@example.com</a>
             </li>
-            <li>
-                <a href="tel:++380991111111">+38 099 111 11 11</a>
+            <li class="list">
+                <a href="tel:++380991111111" class="foot-tel">+38 099 111 11 11</a>
             </li>
         </ul>
     </address>
