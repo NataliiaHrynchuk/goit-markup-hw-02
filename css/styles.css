@@ -18,7 +18,7 @@ body {
 	background-color: var(--main-bg-color);
 	color: var(--text-color);
 }
-.list {
+ul {
 	list-style: none;
 }
 /*-------Верхня лінія--------*/
@@ -35,7 +35,7 @@ body {
 span.head {
 	color: var(--second-logo-color);
 }
-.link-nav {
+.site-nav {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -43,13 +43,13 @@ span.head {
 	color: var(--second-color);
 	text-decoration: inherit;
 }
-.link-nav:hover,
-.link-nav:focus {
+.site-nav:hover,
+.site-nav:focus {
 	color: var(--accent-color);
 }
-.current {
+/*.current {
 	color: var(--accent-color);
-}
+}*/
 .link-mail {
 	font-weight: 500;
 	font-size: 14px;
@@ -154,6 +154,23 @@ span.head {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--text-color) #757575;
+}
+/*------------Портфоліо------------*/
+.filter-btn {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background: var(--main-bg-color);
+	color: var(--second-color) #212121;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	background: var(--accent-color);
+	color: var(--main-color);
 }
 /* Підвал */
 footer {
