@@ -1,12 +1,12 @@
 :root {
 	--accent-color: #2196f3;
 	--second-logo-color: #000000;
+	--main-color: #ffffff;
 	--second-color: #212121;
 	--link-color: #ffffff96;
-	--main-color: #ffffff;
 	--text-color: #757575;
-	--main-bg-color: #f5f4fa;
-	--second-bg-color: #e5e5e5;
+	--second-bg-color: #f5f4fa;
+	--main-bg-color: #e5e5e5;
 	--foot-bg-color: #2f303a;
 	--btn-hover-color: #188ce8;
 	--stroke-color: #eeeeee;
@@ -15,7 +15,7 @@
 
 body {
 	font-family: Roboto, sans-serif;
-	background-color: var(--main-bg-color);
+	background-color: var(--main-color);
 	color: var(--text-color);
 }
 ul {
@@ -47,9 +47,9 @@ span.head {
 .site-nav:focus {
 	color: var(--accent-color);
 }
-/*.current {
+.menu-nav .site-nav.current {
 	color: var(--accent-color);
-}*/
+}
 .link-mail {
 	font-weight: 500;
 	font-size: 14px;
@@ -153,7 +153,7 @@ span.head {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--text-color) #757575;
+	color: var(--text-color);
 }
 
 /* Підвал */
@@ -215,13 +215,14 @@ span.foot {
 	background: var(--accent-color);
 	color: var(--main-color);
 }
-
+.link {
+	text-decoration: none;
+}
 .project-title {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	text-decoration: inherit;
 	color: var(--second-color);
 }
 .site-title {
