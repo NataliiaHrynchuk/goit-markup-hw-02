@@ -87,6 +87,9 @@ span.head {
 	text-transform: uppercase;
 	color: var(--main-color);
 }
+button {
+	cursor: pointer;
+}
 .hero-btn {
 	font-style: normal;
 	font-weight: bold;
