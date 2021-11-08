@@ -24,8 +24,8 @@ ul {
 /*-------Верхня лінія--------*/
 .logo {
 	font-family: Raleway;
-	/*font-style: normal;*/
-	font-weight: bold;
+	font-style: normal;
+	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.38;
 	letter-spacing: 0.03em;
@@ -91,8 +91,9 @@ button {
 	cursor: pointer;
 }
 .hero-btn {
+	font-family: inherit;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	display: flex;
@@ -108,7 +109,7 @@ button {
 }
 /*--------Особливості--------*/
 .features-title {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -116,7 +117,6 @@ button {
 	color: var(--second-color);
 }
 .features-text {
-	/*font-weight: normal;*/
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -124,7 +124,7 @@ button {
 }
 /*-------Чим ми займаємось-------*/
 .about-title {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
@@ -136,7 +136,7 @@ button {
 	background-color: var(--second-bg-color);
 }
 .team-title {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
@@ -203,6 +203,7 @@ span.foot {
 }
 /*------------Портфоліо------------*/
 .filter-btn {
+	font-family: inherit;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
